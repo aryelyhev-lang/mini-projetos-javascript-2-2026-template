@@ -28,7 +28,6 @@ Projeto com exercícios práticos para aprender estruturas de repetição em Jav
 
 ## 📌 Regras Gerais
 
-- **Não edite** nenhum arquivo `index.html` nem `style.css`
 - Cada exercício precisa de um arquivo `script.js` criado por você
 - O `script.js` deve ser criado dentro da pasta do exercício
 - Após criar o arquivo, **referencie-o no HTML** com a tag `<script>`
