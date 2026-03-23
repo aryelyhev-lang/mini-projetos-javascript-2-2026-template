@@ -50,13 +50,9 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   margin-bottom: 24px;
-}
-
-.campo {
-  margin-bottom: 0;
 }
 
 label {
@@ -103,7 +99,6 @@ button:hover {
 .resultado {
   border: 1px solid #374151;
   padding: 24px;
-  overflow-x: auto;
 }
 
 .resultado-titulo {
@@ -114,11 +109,15 @@ button:hover {
   margin-bottom: 16px;
 }
 
+.tabela-wrapper {
+  overflow-x: auto;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
   color: white;
-  min-width: 580px;
+  min-width: 520px;
 }
 
 thead tr {
@@ -130,7 +129,7 @@ thead th {
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  padding: 8px 0;
+  padding: 8px 12px;
   text-align: left;
 }
 
@@ -143,7 +142,7 @@ tbody tr {
 }
 
 tbody td {
-  padding: 12px 0;
+  padding: 12px;
   font-size: 0.95rem;
 }
 
@@ -151,6 +150,7 @@ tbody td:not(:first-child) {
   text-align: right;
 }
 
-.col-juros { color: #f87171; }
-.col-total { color: #facc15; font-weight: 700; }
-.col-saldo { color: #d1d5db; }
+.col-parcela { color: #d1d5db; }
+.col-juros   { color: #f87171; }
+.col-total   { color: #facc15; font-weight: 700; }
+.col-saldo   { color: #6b7280; }

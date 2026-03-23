@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 520px;
+  max-width: 960px;
 }
 
 a {
@@ -101,13 +101,35 @@ button:hover {
   margin-bottom: 16px;
 }
 
-ul {
-  list-style: none;
+.tabela-wrapper {
+  overflow-x: auto;
 }
 
-li {
+table {
+  width: 100%;
+  border-collapse: collapse;
   color: white;
-  font-size: 1.1rem;
-  padding: 10px 0;
+  min-width: 700px;
+}
+
+thead tr {
+  border-bottom: 1px solid #374151;
+}
+
+thead th {
+  color: #9ca3af;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+tbody tr {
   border-bottom: 1px solid #1f2937;
+}
+
+tbody td {
+  padding: 12px;
+  font-size: 0.95rem;
 }

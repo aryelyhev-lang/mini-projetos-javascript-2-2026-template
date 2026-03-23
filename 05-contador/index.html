@@ -13,32 +13,46 @@
     <a href="../index.html">← Voltar</a>
 
     <h1>Contador</h1>
-    <p>Informe o início, fim e o salto para gerar a contagem.</p>
+    <p>Informe a quantidade de termos para gerar cada sequência.</p>
 
     <div class="campo">
-      <label>Início</label>
-      <input type="number" placeholder="Ex: 1"/>
+      <label>Quantidade</label>
+      <input type="number" placeholder="Ex: 5"/>
     </div>
 
-    <div class="campo">
-      <label>Fim</label>
-      <input type="number" placeholder="Ex: 20"/>
-    </div>
-
-    <div class="campo">
-      <label>Salto</label>
-      <input type="number" placeholder="Ex: 2"/>
-    </div>
-
-    <button>Gerar Contagem</button>
+    <button>Gerar</button>
 
     <div class="resultado">
       <p class="resultado-titulo">Resultado</p>
-      <ul>
-        <li>1</li>
-        <li>3</li>
-        <li>5</li>
-      </ul>
+      <div class="tabela-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Contagem</th>
+              <th>Pares</th>
+              <th>Ímpares</th>
+              <th>Múlt. de 5</th>
+              <th>Potências de 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>1</td>
+              <td>5</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>4</td>
+              <td>3</td>
+              <td>10</td>
+              <td>2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
   </div>
